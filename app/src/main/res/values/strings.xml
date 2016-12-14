@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ARTEMUS</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="drawer_billoflanding">Bill Of Landing</string>
+    <string name="drawer_rejectedbill">Rejected Bills</string>
+    <string name="drawer_voyage">Voyage</string>
+    <string name="holdbill">Hold Bill</string>
+
+    <string name="nav_bill_of_landing">Bill Of Landing</string>
+    <string name="nav_rejected_bills">Rejected Bills</string>
+    <string name="nav_voyage">Voyage</string>
+    <string name="hold_bills">Hold Bills</string>
+    <string name="rejected_bills">Rejected Bills</string>
+</resources>

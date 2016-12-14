@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bill_of_landing"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/nav_bill_of_landing" />
+        <item
+            android:id="@+id/nav_rejected_bills"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/nav_rejected_bills" />
+        <item
+            android:id="@+id/nav_voyage"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/nav_voyage" />
+
+    </group>
+
+</menu>

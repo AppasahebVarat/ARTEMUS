@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="editTextStyle">@style/appEditText</item>
+        <item name="buttonStyle">@style/appButton</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="appEditText" parent="AppTheme">
+        <item name="android:padding">@dimen/editTextPadding</item>
+        <item name="android:background">@drawable/edittextbackground</item>
+        <item name="android:editable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+
+    <style name="appButton" parent="AppTheme">
+        <item name="android:background">@drawable/buttonbackground</item>
+        <item name="android:padding">@dimen/editTextPadding</item>
+        <item name="android:textColor">@color/btnTextColor</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+
+
+</resources>
